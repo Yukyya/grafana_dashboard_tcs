@@ -17,6 +17,7 @@ This repository contains automated end-to-end tests for the Grafana Synthetics M
 
 ```bash
 git clone <your-repo-url>
+
 cd <your-repo-folder>
 
 npm install
@@ -31,7 +32,9 @@ npx playwright test tests/filtering-checks.spec.ts
 npx playwright test --headed --verbose
 
 
-Automated Test Cases
+ 
+```
+# Automated Test Cases:
 
 Verify the system displays a message when no checks are found after applying a filter.
 
@@ -39,7 +42,8 @@ Validate filtering by region correctly updates the displayed checks.
 
 Check that individual check details are displayed correctly when selected.
 
-Notes:
+
+# Notes:
 
 The tests are implemented using Playwright with TypeScript.
 
