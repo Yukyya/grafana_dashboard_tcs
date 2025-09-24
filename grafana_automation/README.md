@@ -26,6 +26,9 @@ npm install
 npx playwright test
 
 
+npm install --save-dev @playwright/test
+
+
 npx playwright test tests/filtering-checks.spec.ts
 
 
